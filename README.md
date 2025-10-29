@@ -128,11 +128,11 @@ World Bank Open Data
 🧮 Main Notebook
 📓 carbon_budget_tracker_analysis.ipynb
 Runs the full workflow — data ingestion, fair-share computation, scenario modeling, and multi-panel visualization.
-📈 Example Visualizations
-🌍 Global CO₂ emissions vs remaining budgets
-💰 Fair-share and carbon debt per country
-📆 Overshoot year by region and scenario
-🤖 AI impact on future emission trajectories
+Example Visualizations
+Global CO₂ emissions vs remaining budgets
+Fair-share and carbon debt per country
+Overshoot year by region and scenario
+AI impact on future emission trajectories
 
 Project by Nisha Verma | Python + Streamlit Dashboard
 📍 Berlin | 2025
