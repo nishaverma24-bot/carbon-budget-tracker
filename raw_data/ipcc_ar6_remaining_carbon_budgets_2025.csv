@@ -1,0 +1,5 @@
+warming_target_c,probability,remaining_gtco2_from_2020,source,notes,remaining_gtco2_as_of_2025
+1.5,0.5,500,IPCC AR6 WGI (remaining CO2 budgets),Approximate; CO2-only; baseline year 2020,300
+1.5,0.66,400,IPCC AR6 WGI (remaining CO2 budgets),Approximate; CO2-only; baseline year 2020,200
+2.0,0.5,1350,IPCC AR6 WGI (remaining CO2 budgets),Approximate; CO2-only; baseline year 2020,1150
+2.0,0.67,1150,IPCC AR6 WGI (remaining CO2 budgets),Approximate; CO2-only; baseline year 2020,950
