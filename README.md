@@ -1,9 +1,10 @@
 # 🌍 Carbon Budget Tracker  
 **From Fair Shares to Carbon Debt: Why Countries Overshoot the Paris Agreement**
 
-<center>
-<img src="Data Analytics-Final Project/Picks/CO2_Budget_Tracker.png" width="750">
-</center>
+<p align="center">
+  <img src="assets/CO2_Budget_Tracker.png" width="750">
+</p>
+
 
 ---
 
