@@ -1,0 +1,230 @@
+iso_code,country,status,budget_used_pct,renewables_share_energy,fossil_share_energy,co2_per_capita,first_emissions_year,latest_year,industrialization_age,overshoot_driver_tag,fair_share_budget_gt,cumulative_co2
+AIA,Anguilla,No data,,,,10.012,1990.0,2023.0,33.0,No data,,3.478
+AND,Andorra,No data,,,,5.242,1990.0,2023.0,33.0,No data,,16.236
+ANT,Netherlands Antilles,No data,,,,,,,,No data,0.004863941817307345,
+ASM,American Samoa,No data,,,,,,,,No data,0.001166777128212766,
+ATA,Antarctica,No data,,,,,1987.0,2023.0,36.0,No data,,0.154
+BES,Bonaire Sint Eustatius and Saba,No data,,,,3.84,1950.0,2023.0,73.0,No data,,7.639
+CXR,Christmas Island,No data,,,,,1970.0,2023.0,53.0,No data,,1.33
+CYM,Cayman Islands,No data,,,,,,,,No data,0.0017934110476786002,
+ESH,Western Sahara,No data,,,,,,,,No data,0.014239598726276384,
+FLK,Falkland Islands,No data,,,,,,,,No data,8.499229170332366e-05,
+GIB,Gibraltar,No data,,,,,,,,No data,0.0009442987507685457,
+GLP,Guadeloupe,No data,,,,,,,,No data,0.009247652622244754,
+GUF,French Guiana,No data,,,,,,,,No data,0.007451760585704295,
+GUM,Guam,No data,,,,,,,,No data,0.004089382007483877,
+LIE,Liechtenstein,No data,,,,3.969,1959.0,2023.0,64.0,No data,,9.883
+MHL,Marshall Islands,No data,,,,3.947,1992.0,2023.0,31.0,No data,,3.857
+MNP,Northern Mariana Islands,No data,,,,,,,,No data,0.0011082405296205637,
+MTQ,Martinique,No data,,,,,,,,No data,0.008498000958024514,
+PLW,Palau,No data,,,,12.526,1955.0,2023.0,68.0,No data,,11.208
+PRI,Puerto Rico,No data,,,,,,,,No data,0.07964143739869167,
+REU,Reunion,No data,,,,,,,,No data,0.02148971141527762,
+SXM,Sint Maarten (Dutch part),No data,,,,16.201,1950.0,2023.0,73.0,No data,,61.479
+VIR,United States Virgin Islands,No data,,,,,,,,No data,0.002104320711288129,
+WLF,Wallis and Futuna,No data,,,,2.691,1990.0,2023.0,33.0,No data,,0.834
+DNK,Denmark,Overshooting (>100%),2838981.6080760066,41.722,58.278,4.584,1843.0,2023.0,180.0,Overshoot & correcting (higher renewables),0.14682958805164617,4168.465
+AUT,Austria,Overshooting (>100%),2541240.465917437,43.347,56.653,6.416,1807.0,2023.0,216.0,Overshoot & correcting (higher renewables),0.22404471660042338,5693.515
+FIN,Finland,Overshooting (>100%),2387791.585671193,38.894,36.773,5.646,1860.0,2023.0,163.0,Overshoot & correcting (higher renewables),0.13798402757474584,3294.771
+NOR,Norway,Overshooting (>100%),2007055.1923390832,71.812,28.188,7.048,1829.0,2023.0,194.0,Overshoot & correcting (higher renewables),0.13698517163326251,2749.368
+SWE,Sweden,Overshooting (>100%),1957295.6500974516,51.318,27.79,3.465,1834.0,2023.0,189.0,Overshoot & correcting (higher renewables),0.2605513377473704,5099.76
+ISL,Iceland,Overshooting (>100%),1740600.6599369464,80.498,19.502,9.708,1936.0,2023.0,87.0,Overshoot & correcting (higher renewables),0.00966246904709852,168.185
+NZL,New Zealand,Overshooting (>100%),1544593.1524685188,42.554,57.446,5.823,1878.0,2023.0,145.0,Overshoot & correcting (higher renewables),0.12807547390964621,1978.245
+CHE,Switzerland,Overshooting (>100%),1426184.9954651166,39.868,43.172,3.691,1858.0,2023.0,165.0,Overshoot & correcting (higher renewables),0.21916055840852877,3125.635
+PRT,Portugal,Overshooting (>100%),1066830.7527081314,39.741,60.259,3.569,1870.0,2023.0,153.0,Overshoot & correcting (higher renewables),0.25608813704186884,2732.027
+CHL,Chile,Overshooting (>100%),667894.7429669823,32.254,67.746,3.931,1844.0,2023.0,179.0,Overshoot & correcting (higher renewables),0.4855056929472348,3242.667
+BRA,Brazil,Overshooting (>100%),340407.25986378867,49.616,49.378,2.304,1856.0,2023.0,167.0,Overshoot & correcting (higher renewables),5.207583412613855,17726.992
+CUW,Curacao,Overshooting (>100%),11661773.978993747,,,10.912,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.004555267500098107,531.225
+USA,United States,Overshooting (>100%),5089516.673597323,12.05,80.33,14.299,1800.0,2023.0,223.0,Overshoot & fossil-locked (low renewables),8.485142041881986,431852.719
+EST,Estonia,Overshooting (>100%),4969745.154345338,17.946,82.054,7.328,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.03341968146088541,1660.873
+GBR,United Kingdom,Overshooting (>100%),4697431.316889787,21.293,73.543,4.443,1750.0,2023.0,273.0,Overshoot & fossil-locked (low renewables),1.6983262897991993,79777.711
+LUX,Luxembourg,Overshooting (>100%),4694070.300019935,14.278,85.722,10.514,1945.0,2023.0,78.0,Overshoot & fossil-locked (low renewables),0.01653183592066579,776.016
+CZE,Czechia,Overshooting (>100%),4648134.775786058,9.746,71.686,7.921,1860.0,2023.0,163.0,Overshoot & fossil-locked (low renewables),0.2637170304066115,12257.923
+DEU,Germany,Overshooting (>100%),4553879.332875347,23.968,76.032,7.051,1792.0,2023.0,231.0,Overshoot & fossil-locked (low renewables),2.0769608082759667,94582.289
+TTO,Trinidad and Tobago,Overshooting (>100%),4521374.080756012,0.011,99.989,22.834,1909.0,2023.0,114.0,Overshoot & fossil-locked (low renewables),0.037036373679569565,1674.553
+BEL,Belgium,Overshooting (>100%),4445235.124176826,11.454,76.64,7.118,1802.0,2023.0,221.0,Overshoot & fossil-locked (low renewables),0.28835246374900453,12817.945
+BRN,Brunei,Overshooting (>100%),3644703.7493424052,,,25.644,1933.0,2023.0,90.0,Overshoot & fossil-locked (low renewables),0.011365532797411563,414.24
+CAN,Canada,Overshooting (>100%),3601190.6870640274,27.157,67.389,13.977,1785.0,2023.0,238.0,Overshoot & fossil-locked (low renewables),0.9762415560577321,35156.32
+RUS,Russia,Overshooting (>100%),3408849.7590765553,5.999,88.159,12.486,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),3.557403217232157,121266.531
+UKR,Ukraine,Overshooting (>100%),3341823.6511577633,8.299,70.004,3.616,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),0.9300065845554933,31079.18
+QAT,Qatar,Overshooting (>100%),3241922.6577065326,0.811,99.189,38.841,1949.0,2023.0,74.0,Overshoot & fossil-locked (low renewables),0.07488105844318237,2427.586
+KWT,Kuwait,Overshooting (>100%),3084674.2755625965,0.076,99.924,20.508,1946.0,2023.0,77.0,Overshoot & fossil-locked (low renewables),0.12121133922051038,3738.975
+POL,Poland,Overshooting (>100%),3040593.800452597,13.045,86.955,7.463,1800.0,2023.0,223.0,Overshoot & fossil-locked (low renewables),0.9466852164111935,28784.852
+AUS,Australia,Overshooting (>100%),2996746.019984667,14.733,85.267,14.478,1806.0,2023.0,217.0,Overshoot & fossil-locked (low renewables),0.6561884413581572,19664.301
+SVK,Slovakia,Overshooting (>100%),2956382.647655335,11.295,63.883,5.571,1860.0,2023.0,163.0,Overshoot & fossil-locked (low renewables),0.13526817995537843,3999.045
+KAZ,Kazakhstan,Overshooting (>100%),2858152.77698679,5.12,94.88,12.551,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),0.5058397548378087,14457.673
+ABW,Aruba,Overshooting (>100%),2821344.3180638067,,,8.033,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0026505804173281608,74.782
+SPM,Saint Pierre and Miquelon,Overshooting (>100%),2770662.1846507145,,,9.74,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.00013935296844883095,3.861
+NLD,Netherlands,Overshooting (>100%),2711425.755718313,18.119,80.93,6.559,1846.0,2023.0,177.0,Overshoot & fossil-locked (low renewables),0.4477739054589596,12141.057
+BHR,Bahrain,Overshooting (>100%),2705320.545521681,,,23.27,1933.0,2023.0,90.0,Overshoot & fossil-locked (low renewables),0.039474915524070245,1067.923
+GRL,Greenland,Overshooting (>100%),2537183.5129561857,,,10.659,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0013730185389471895,34.836
+FRO,Faroe Islands,Overshooting (>100%),2462643.0198178883,,,14.572,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0013433940580818114,33.083
+FRA,France,Overshooting (>100%),2427652.9684737544,16.465,46.136,4.101,1802.0,2023.0,221.0,Overshoot & fossil-locked (low renewables),1.634713219531939,39685.164
+BGR,Bulgaria,Overshooting (>100%),2386472.543807204,16.425,63.296,5.311,1881.0,2023.0,142.0,Overshoot & fossil-locked (low renewables),0.16599650435031504,3961.461
+NCL,New Caledonia,Overshooting (>100%),2315952.30492425,,,17.482,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.007187842324993165,166.467
+BLR,Belarus,Overshooting (>100%),2304257.2518399204,0.969,86.791,6.197,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),0.2224699519077885,5126.28
+LTU,Lithuania,Overshooting (>100%),2275155.932547207,23.414,76.586,4.366,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.07023070274621039,1597.858
+JPN,Japan,Overshooting (>100%),2262066.3549077422,12.697,82.955,7.95,1868.0,2023.0,155.0,Overshoot & fossil-locked (low renewables),3.039898933592713,68764.531
+SAU,Saudi Arabia,Overshooting (>100%),2195453.3791313237,0.728,99.272,22.132,1936.0,2023.0,87.0,Overshoot & fossil-locked (low renewables),0.8342680001361307,18315.965
+HUN,Hungary,Overshooting (>100%),2168749.376394113,12.706,72.181,4.149,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),0.23768583203332988,5154.81
+LVA,Latvia,Overshooting (>100%),2117672.2808415922,29.669,70.331,3.46,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.04597987180589798,973.703
+ARE,United Arab Emirates,Overshooting (>100%),2090304.421590938,2.519,90.953,21.554,1959.0,2023.0,64.0,Overshoot & fossil-locked (low renewables),0.27087198120600037,5662.049
+BMU,Bermuda,Overshooting (>100%),1916137.1386877203,,,8.074,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0015887171844520698,30.442
+ROU,Romania,Overshooting (>100%),1882243.1477842298,19.112,73.311,3.569,1858.0,2023.0,165.0,Overshoot & fossil-locked (low renewables),0.4670903443239864,8791.776
+MDA,Moldova,Overshooting (>100%),1816067.4588543426,,,1.944,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.07455064476812415,1353.89
+IRL,Ireland,Overshooting (>100%),1808456.999381704,22.18,77.82,6.626,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.12908435206356156,2334.435
+BHS,Bahamas,Overshooting (>100%),1795151.4619316014,,,6.272,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.009811205557579337,176.126
+SRB,Serbia,Overshooting (>100%),1774927.6902762966,,,6.254,1885.0,2023.0,138.0,Overshoot & fossil-locked (low renewables),0.1654689380356005,2936.954
+ITA,Italy,Overshooting (>100%),1763401.0888072716,20.931,79.069,5.268,1860.0,2023.0,163.0,Overshoot & fossil-locked (low renewables),1.4577114170541052,25705.299
+TWN,Taiwan,Overshooting (>100%),1732678.3025554821,6.268,91.353,11.2,1896.0,2023.0,127.0,Overshoot & fossil-locked (low renewables),0.5702323960211086,9880.293
+NRU,Nauru,Overshooting (>100%),1724574.3641999997,,,4.832,1964.0,2023.0,59.0,Overshoot & fossil-locked (low renewables),0.000291086316960805,5.02
+SVN,Slovenia,Overshooting (>100%),1722088.836602231,24.736,56.971,5.348,1885.0,2023.0,138.0,Overshoot & fossil-locked (low renewables),0.05204284360662227,896.224
+GRC,Greece,Overshooting (>100%),1720747.6367239582,21.055,78.945,5.389,1867.0,2023.0,156.0,Overshoot & fossil-locked (low renewables),0.2468157973522363,4247.077
+KOR,South Korea,Overshooting (>100%),1582752.1998713254,4.748,82.465,11.158,1905.0,2023.0,118.0,Overshoot & fossil-locked (low renewables),1.2704025305815203,20107.324
+MSR,Montserrat,Overshooting (>100%),1533205.7031512395,,,5.008,1962.0,2023.0,61.0,Overshoot & fossil-locked (low renewables),0.00010800899035246072,1.656
+SGP,Singapore,Overshooting (>100%),1529248.4181419516,0.545,99.455,8.508,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.1432671091242306,2190.91
+ZAF,South Africa,Overshooting (>100%),1415463.9084513187,3.557,95.044,6.358,1884.0,2023.0,139.0,Overshoot & fossil-locked (low renewables),1.57228706907474,22255.156
+TKM,Turkmenistan,Overshooting (>100%),1395328.3067227728,0.007,99.993,8.604,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.18409509701936852,2568.731
+LBY,Libya,Overshooting (>100%),1341820.2759808179,,,8.346,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.18130811134313035,2432.829
+BIH,Bosnia and Herzegovina,Overshooting (>100%),1318225.1352716705,,,6.336,1885.0,2023.0,138.0,Overshoot & fossil-locked (low renewables),0.07772655615376656,1024.611
+ESP,Spain,Overshooting (>100%),1317400.2226338685,25.863,65.804,4.626,1830.0,2023.0,193.0,Overshoot & fossil-locked (low renewables),1.1768847259644761,15504.282
+HRV,Croatia,Overshooting (>100%),1224274.725533959,27.778,72.222,4.498,1885.0,2023.0,138.0,Overshoot & fossil-locked (low renewables),0.0951932581546766,1165.427
+OMN,Oman,Overshooting (>100%),1217113.2065114805,1.115,98.885,15.549,1964.0,2023.0,59.0,Overshoot & fossil-locked (low renewables),0.1297359186928768,1579.033
+MKD,North Macedonia,Overshooting (>100%),1189145.6594890275,16.037,83.963,4.066,1885.0,2023.0,138.0,Overshoot & fossil-locked (low renewables),0.044779711867157804,532.496
+ATG,Antigua and Barbuda,Overshooting (>100%),1145931.7701855819,,,6.909,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.002291672216727796,26.261
+ISR,Israel,Overshooting (>100%),1109106.6118369852,9.795,90.205,6.427,1930.0,2023.0,93.0,Overshoot & fossil-locked (low renewables),0.2305836943631786,2557.419
+VEN,Venezuela,Overshooting (>100%),1104808.2732245757,25.84,74.16,3.518,1870.0,2023.0,153.0,Overshoot & fossil-locked (low renewables),0.6977598907274838,7708.909
+AZE,Azerbaijan,Overshooting (>100%),1022723.9187557254,4.303,95.697,4.258,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.25390879712281716,2596.786
+MNG,Mongolia,Overshooting (>100%),964013.4974093047,,,13.657,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0853727673120499,823.005
+HKG,Hong Kong,Overshooting (>100%),945148.8236964551,1.048,98.952,4.551,1938.0,2023.0,85.0,Overshoot & fossil-locked (low renewables),0.18214083928785368,1721.502
+CYP,Cyprus,Overshooting (>100%),943766.3320401519,10.795,89.205,5.334,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.033364190828816684,314.88
+IRN,Iran,Overshooting (>100%),939127.5266033717,1.433,98.068,9.027,1906.0,2023.0,117.0,Overshoot & fossil-locked (low renewables),2.2492910069839027,21123.711
+BRB,Barbados,Overshooting (>100%),897637.5871164019,,,4.221,1928.0,2023.0,95.0,Overshoot & fossil-locked (low renewables),0.006934535818621872,62.247
+PRK,North Korea,Overshooting (>100%),836501.1552736473,,,2.3,1905.0,2023.0,118.0,Overshoot & fossil-locked (low renewables),0.6489418413563564,5428.406
+MLT,Malta,Overshooting (>100%),826516.9942413081,,,3.419,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.013253810963748615,109.545
+SUR,Suriname,Overshooting (>100%),811291.2395201005,,,4.21,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.01544698055338672,125.32
+ARG,Argentina,Overshooting (>100%),802915.3785499022,14.803,82.583,4.3,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),1.1224905190229646,9012.649
+CHN,China,Overshooting (>100%),781686.5083720019,17.472,80.259,8.367,1907.0,2023.0,116.0,Overshoot & fossil-locked (low renewables),34.86455606961854,272531.531
+MYS,Malaysia,Overshooting (>100%),775236.37230996,8.282,91.718,8.222,1890.0,2023.0,133.0,Overshoot & fossil-locked (low renewables),0.8734463760805932,6771.274
+COK,Cook Islands,Overshooting (>100%),752659.7556301944,,,5.114,1969.0,2023.0,54.0,Overshoot & fossil-locked (low renewables),0.0003487631669375113,2.625
+GEO,Georgia,Overshooting (>100%),742890.0340683258,,,3.091,1855.0,2023.0,168.0,Overshoot & fossil-locked (low renewables),0.09353133951667658,694.835
+UZB,Uzbekistan,Overshooting (>100%),740877.755100225,4.582,95.418,3.5,1831.0,2023.0,192.0,Overshoot & fossil-locked (low renewables),0.893200525247892,6617.524
+MNE,Montenegro,Overshooting (>100%),712968.9451260159,,,3.675,1890.0,2023.0,133.0,Overshoot & fossil-locked (low renewables),0.015682871009232678,111.814
+NIU,Niue,Overshooting (>100%),686369.2709328358,,,4.165,1970.0,2023.0,53.0,Overshoot & fossil-locked (low renewables),4.44367212980672e-05,0.305
+JAM,Jamaica,Overshooting (>100%),682297.3647471351,,,2.693,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.06975580217525652,475.942
+KNA,Saint Kitts and Nevis,Overshooting (>100%),674356.0159324497,,,4.991,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0011482065581180515,7.743
+MEX,Mexico,Overshooting (>100%),671667.6120601967,8.251,90.445,3.72,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),3.2145006863997745,21590.76
+CUB,Cuba,Overshooting (>100%),662728.310999384,,,2.096,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),0.269708864150465,1787.437
+TCA,Turks and Caicos Islands,Overshooting (>100%),638095.7484459834,,,8.018,1990.0,2023.0,33.0,Overshoot & fossil-locked (low renewables),0.0011341558093162303,7.237
+VGB,British Virgin Islands,Overshooting (>100%),635610.2836398572,,,4.75,1962.0,2023.0,61.0,Overshoot & fossil-locked (low renewables),0.0009568756448009451,6.082
+TUR,Turkey,Overshooting (>100%),568730.9153230485,19.786,80.214,4.951,1865.0,2023.0,158.0,Overshoot & fossil-locked (low renewables),2.1487270466136996,12220.475
+URY,Uruguay,Overshooting (>100%),563748.4420005245,,,2.322,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),0.08318745828118204,468.968
+LBN,Lebanon,Overshooting (>100%),555185.4914444234,,,3.373,1931.0,2023.0,92.0,Overshoot & fossil-locked (low renewables),0.14182034871832,787.366
+GUY,Guyana,Overshooting (>100%),552663.4282237558,,,4.29,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.020413871126338176,112.82
+ARM,Armenia,Overshooting (>100%),545974.9283974103,,,2.585,1855.0,2023.0,168.0,Overshoot & fossil-locked (low renewables),0.07304895870780644,398.829
+KGZ,Kyrgyzstan,Overshooting (>100%),492161.2993351415,,,1.435,1850.0,2023.0,173.0,Overshoot & fossil-locked (low renewables),0.17651773944306332,868.752
+GAB,Gabon,Overshooting (>100%),490460.04768161057,,,2.178,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.06236614000383721,305.881
+SYC,Seychelles,Overshooting (>100%),487267.2816877884,,,4.306,1963.0,2023.0,60.0,Overshoot & fossil-locked (low renewables),0.003142012725945702,15.31
+PYF,French Polynesia,Overshooting (>100%),480360.66379486246,,,3.259,1955.0,2023.0,68.0,Overshoot & fossil-locked (low renewables),0.0069043954885871965,33.166
+DZA,Algeria,Overshooting (>100%),457729.4233867574,0.242,99.758,3.859,1916.0,2023.0,107.0,Overshoot & fossil-locked (low renewables),1.1499566623997552,5263.69
+THA,Thailand,Overshooting (>100%),456708.46226196684,7.403,92.597,3.687,1931.0,2023.0,92.0,Overshoot & fossil-locked (low renewables),1.7604694601406692,8040.213
+ALB,Albania,Overshooting (>100%),440414.25633898505,,,1.83,1933.0,2023.0,90.0,Overshoot & fossil-locked (low renewables),0.0690652029587978,304.173
+IRQ,Iraq,Overshooting (>100%),438308.46698593284,0.584,99.416,3.915,1927.0,2023.0,96.0,Overshoot & fossil-locked (low renewables),1.1309861372491117,4957.208
+MUS,Mauritius,Overshooting (>100%),408235.9545264656,,,3.25,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0312836237435624,127.711
+LCA,Saint Lucia,Overshooting (>100%),361351.0996300233,,,2.852,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.004402920045432207,15.91
+TUN,Tunisia,Overshooting (>100%),338723.0349723241,,,2.688,1916.0,2023.0,107.0,Overshoot & fossil-locked (low renewables),0.30157647828216466,1021.509
+GNQ,Equatorial Guinea,Overshooting (>100%),334057.35785304947,,,3.324,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.04648692697507139,155.293
+DMA,Dominica,Overshooting (>100%),325355.707721735,,,2.451,1951.0,2023.0,72.0,Overshoot & fossil-locked (low renewables),0.0016329819560270376,5.313
+SYR,Syria,Overshooting (>100%),325020.45383136865,,,1.081,1931.0,2023.0,92.0,Overshoot & fossil-locked (low renewables),0.6060664726725223,1969.84
+PAN,Panama,Overshooting (>100%),323824.48745674064,,,3.144,1904.0,2023.0,119.0,Overshoot & fossil-locked (low renewables),0.10952507106102648,354.669
+MAC,Macao,Overshooting (>100%),322041.47973458964,,,1.481,1954.0,2023.0,69.0,Overshoot & fossil-locked (low renewables),0.01753562927562666,56.472
+SHN,Saint Helena,Overshooting (>100%),321452.2328024049,,,2.091,1968.0,2023.0,55.0,Overshoot & fossil-locked (low renewables),0.0001297237839552752,0.417
+GRD,Grenada,Overshooting (>100%),321302.59285511804,,,2.898,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0028751713199418856,9.238
+VCT,Saint Vincent and the Grenadines,Overshooting (>100%),308800.4838568065,,,2.341,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0024880142362609364,7.683
+ECU,Ecuador,Overshooting (>100%),300939.27524546004,25.358,74.642,2.401,1895.0,2023.0,128.0,Overshoot & fossil-locked (low renewables),0.44548289647687817,1340.633
+DOM,Dominican Republic,Overshooting (>100%),300168.04476999625,,,2.826,1870.0,2023.0,153.0,Overshoot & fossil-locked (low renewables),0.28070809490918297,842.596
+COL,Colombia,Overshooting (>100%),287600.20288404624,26.093,73.907,2.011,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),1.2991124354339796,3736.25
+BWA,Botswana,Overshooting (>100%),284724.1749033953,,,2.707,1972.0,2023.0,51.0,Overshoot & fossil-locked (low renewables),0.06092387485497335,173.465
+JOR,Jordan,Overshooting (>100%),269880.61936723604,,,1.852,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.2809946122763586,758.35
+EGY,Egypt,Overshooting (>100%),254667.20856103188,5.778,94.222,2.349,1911.0,2023.0,112.0,Overshoot & fossil-locked (low renewables),2.862673228011158,7290.29
+PER,Peru,Overshooting (>100%),245325.25791212046,26.656,73.344,1.651,1856.0,2023.0,167.0,Overshoot & fossil-locked (low renewables),0.8405347323587276,2062.044
+MDV,Maldives,Overshooting (>100%),239912.91268044978,,,3.921,1971.0,2023.0,52.0,Overshoot & fossil-locked (low renewables),0.012919688087520694,30.996
+IDN,Indonesia,Overshooting (>100%),236403.4947092914,10.954,89.046,2.608,1889.0,2023.0,134.0,Overshoot & fossil-locked (low renewables),6.9636660914188155,16462.35
+FJI,Fiji,Overshooting (>100%),224394.85683461456,,,1.24,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.022700163773157582,50.938
+CRI,Costa Rica,Overshooting (>100%),220344.7978063722,,,1.622,1878.0,2023.0,145.0,Overshoot & fossil-locked (low renewables),0.1260111437911017,277.659
+VNM,Vietnam,Overshooting (>100%),212008.1325680323,21.534,78.466,3.336,1892.0,2023.0,131.0,Overshoot & fossil-locked (low renewables),2.4806850266993097,5259.254
+BLZ,Belize,Overshooting (>100%),208265.28233648284,,,1.625,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.010097698360508776,21.03
+MAR,Morocco,Overshooting (>100%),208031.59216205127,8.673,91.327,1.821,1928.0,2023.0,95.0,Overshoot & fossil-locked (low renewables),0.935433882794166,1945.998
+BOL,Bolivia,Overshooting (>100%),199820.30021864595,,,1.908,1862.0,2023.0,161.0,Overshoot & fossil-locked (low renewables),0.3049224725081983,609.297
+ZWE,Zimbabwe,Overshooting (>100%),199478.7406788209,,,0.683,1903.0,2023.0,120.0,Overshoot & fossil-locked (low renewables),0.4086094574420681,815.089
+TON,Tonga,Overshooting (>100%),194389.04380629753,,,1.905,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0025685603994098378,4.993
+TJK,Tajikistan,Overshooting (>100%),192413.6212773445,,,0.871,1855.0,2023.0,168.0,Overshoot & fossil-locked (low renewables),0.2601567376971039,500.577
+IND,India,Overshooting (>100%),176397.33970531545,9.146,89.67,2.129,1858.0,2023.0,165.0,Overshoot & fossil-locked (low renewables),35.64114238062147,62870.027
+FSM,Micronesia (country),Overshooting (>100%),170572.25517213726,,,1.327,1992.0,2023.0,31.0,Overshoot & fossil-locked (low renewables),0.0027659832457738874,4.718
+SLV,El Salvador,Overshooting (>100%),164779.41380943227,,,1.304,1896.0,2023.0,127.0,Overshoot & fossil-locked (low renewables),0.15569177852319482,256.548
+BTN,Bhutan,Overshooting (>100%),149889.18016055858,,,2.178,1970.0,2023.0,53.0,Overshoot & fossil-locked (low renewables),0.019315603680657368,28.952
+SWZ,Eswatini,Overshooting (>100%),146099.70801315812,,,0.897,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.030225248633640612,44.159
+WSM,Samoa,Overshooting (>100%),142031.55671528875,,,1.185,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.0053213526449974,7.558
+PHL,Philippines,Overshooting (>100%),134025.37456021315,12.818,87.182,1.345,1907.0,2023.0,116.0,Overshoot & fossil-locked (low renewables),2.8456111482729467,3813.841
+LSO,Lesotho,Overshooting (>100%),132150.34838065348,,,1.682,1990.0,2023.0,33.0,Overshoot & fossil-locked (low renewables),0.0567785109304976,75.033
+TUV,Tuvalu,Overshooting (>100%),129764.88690355537,,,1.169,1990.0,2023.0,33.0,Overshoot & fossil-locked (low renewables),0.00024043484138500925,0.312
+CPV,Cape Verde,Overshooting (>100%),126152.99113040169,,,1.024,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.012829660125355177,16.185
+NAM,Namibia,Overshooting (>100%),123054.13234619469,,,1.409,1991.0,2023.0,32.0,Overshoot & fossil-locked (low renewables),0.07278504044709531,89.565
+PRY,Paraguay,Overshooting (>100%),119898.15736375535,,,1.189,1920.0,2023.0,103.0,Overshoot & fossil-locked (low renewables),0.16812018168757492,201.573
+LAO,Laos,Overshooting (>100%),118729.78495379446,,,3.235,1955.0,2023.0,68.0,Overshoot & fossil-locked (low renewables),0.18828384140255758,223.549
+COG,Congo,Overshooting (>100%),116382.78789871806,,,1.241,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.155563381208532,181.049
+NIC,Nicaragua,Overshooting (>100%),115006.44159134047,,,0.819,1878.0,2023.0,145.0,Overshoot & fossil-locked (low renewables),0.16761582858547877,192.769
+GTM,Guatemala,Overshooting (>100%),112435.8620558191,,,1.125,1892.0,2023.0,131.0,Overshoot & fossil-locked (low renewables),0.4452218276687212,500.589
+HND,Honduras,Overshooting (>100%),112041.18033955488,,,1.037,1898.0,2023.0,125.0,Overshoot & fossil-locked (low renewables),0.26148153662084483,292.967
+LKA,Sri Lanka,Overshooting (>100%),98633.30735793084,23.25,76.75,0.884,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.5675202576029109,559.764
+PAK,Pakistan,Overshooting (>100%),92567.51819165477,12.507,81.18,0.811,1946.0,2023.0,77.0,Overshoot & fossil-locked (low renewables),6.172236343390577,5713.486
+NGA,Nigeria,Overshooting (>100%),81050.82755771786,,,0.564,1915.0,2023.0,108.0,Overshoot & fossil-locked (low renewables),5.715594941582899,4632.537
+PNG,Papua New Guinea,Overshooting (>100%),77640.0433788295,,,0.801,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.25980279147422725,201.711
+AGO,Angola,Overshooting (>100%),76865.69149863382,,,0.565,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.9306362644414825,715.34
+MRT,Mauritania,Overshooting (>100%),75660.16343358172,,,0.879,1959.0,2023.0,64.0,Overshoot & fossil-locked (low renewables),0.1233713962063288,93.343
+DJI,Djibouti,Overshooting (>100%),72128.18245066797,,,0.427,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.02832041416539372,20.427
+YEM,Yemen,Overshooting (>100%),69800.11836714535,,,0.255,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.9968937249360396,695.833
+STP,Sao Tome and Principe,Overshooting (>100%),69273.6803080482,,,0.72,1951.0,2023.0,72.0,Overshoot & fossil-locked (low renewables),0.005670263197411853,3.928
+VUT,Vanuatu,Overshooting (>100%),69188.37218810183,,,0.706,1962.0,2023.0,61.0,Overshoot & fossil-locked (low renewables),0.007869819491050787,5.445
+KIR,Kiribati,Overshooting (>100%),68026.47450819658,,,0.521,1961.0,2023.0,62.0,Overshoot & fossil-locked (low renewables),0.003254615230329528,2.214
+SEN,Senegal,Overshooting (>100%),63995.28740040621,,,0.658,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.4440608231383553,284.178
+SLB,Solomon Islands,Overshooting (>100%),57550.661516357606,,,0.379,1952.0,2023.0,71.0,Overshoot & fossil-locked (low renewables),0.019650512612762315,11.309
+PSE,Palestine,Overshooting (>100%),53278.436978301776,,,0.646,1990.0,2023.0,33.0,Overshoot & fossil-locked (low renewables),0.13287176579303708,70.792
+ZMB,Zambia,Overshooting (>100%),52318.36918855065,,,0.374,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.5235847451834318,273.931
+MMR,Myanmar,Overshooting (>100%),51759.979128747895,,,0.558,1928.0,2023.0,95.0,Overshoot & fossil-locked (low renewables),1.3387524718207175,692.938
+KHM,Cambodia,Overshooting (>100%),51643.88697536051,,,1.158,1955.0,2023.0,68.0,Overshoot & fossil-locked (low renewables),0.43328264603080446,223.764
+CIV,Cote d'Ivoire,Overshooting (>100%),50102.58686275323,,,0.423,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.7655592735175637,383.565
+GHA,Ghana,Overshooting (>100%),48745.16750225811,,,0.581,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.8299735558017279,404.572
+BGD,Bangladesh,Overshooting (>100%),45083.2103419534,1.095,98.905,0.662,1946.0,2023.0,77.0,Overshoot & fossil-locked (low renewables),4.263427527500958,1922.09
+CMR,Cameroon,Overshooting (>100%),43042.10337346744,,,0.35,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.6969524639563022,299.983
+SDN,Sudan,Overshooting (>100%),41010.553066038316,,,0.4,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),1.239239566415081,508.219
+KEN,Kenya,Overshooting (>100%),39677.99981060679,,,0.389,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),1.3862316715193022,550.029
+LBR,Liberia,Overshooting (>100%),38189.907359529374,,,0.14,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.13493093741988857,51.53
+BEN,Benin,Overshooting (>100%),35106.73893267718,,,0.396,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.3466257581866497,121.689
+TLS,East Timor,Overshooting (>100%),33635.59913872907,,,0.457,1998.0,2023.0,25.0,Overshoot & fossil-locked (low renewables),0.03400266471493021,11.437
+COM,Comoros,Overshooting (>100%),32550.041400608585,,,0.528,1959.0,2023.0,64.0,Overshoot & fossil-locked (low renewables),0.02088783825593807,6.799
+TGO,Togo,Overshooting (>100%),32279.62439025443,,,0.282,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.22855284531214612,73.776
+HTI,Haiti,Overshooting (>100%),30476.86035267705,,,0.303,1872.0,2023.0,151.0,Overshoot & fossil-locked (low renewables),0.28586277914400493,87.122
+NPL,Nepal,Overshooting (>100%),28834.91693915337,,,0.562,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.7294246778786648,210.329
+GIN,Guinea,Overshooting (>100%),28471.842231795814,,,0.281,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.35385838113238716,100.75
+GMB,Gambia,Overshooting (>100%),25230.366834020497,,,0.264,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.06626934958969695,16.72
+MOZ,Mozambique,Overshooting (>100%),23602.150459402044,,,0.239,1927.0,2023.0,96.0,Overshoot & fossil-locked (low renewables),0.8507021440498299,200.784
+AFG,Afghanistan,Overshooting (>100%),23258.38603210925,,,0.266,1949.0,2023.0,74.0,Overshoot & fossil-locked (low renewables),1.0183036762440452,236.841
+ERI,Eritrea,Overshooting (>100%),21309.994736441404,,,0.179,1939.0,2023.0,84.0,Overshoot & fossil-locked (low renewables),0.08524638426557198,18.166
+GNB,Guinea-Bissau,Overshooting (>100%),20883.278064248138,,,0.138,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.05289399473596335,11.046
+TZA,Tanzania,Overshooting (>100%),19707.346651261953,,,0.271,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),1.6364100439637281,322.493
+SLE,Sierra Leone,Overshooting (>100%),19406.70835166254,,,0.146,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.20782504311992112,40.332
+MLI,Mali,Overshooting (>100%),15937.977746302835,,,0.284,1959.0,2023.0,64.0,Overshoot & fossil-locked (low renewables),0.5838695566103838,93.057
+BFA,Burkina Faso,Overshooting (>100%),15685.015520287167,,,0.269,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.5656098961792787,88.716
+SSD,South Sudan,Overshooting (>100%),14902.186956374524,,,0.138,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.2933797578032561,43.72
+MDG,Madagascar,Overshooting (>100%),13973.620362995604,,,0.143,1933.0,2023.0,90.0,Overshoot & fossil-locked (low renewables),0.7851937948060778,109.72
+MWI,Malawi,Overshooting (>100%),10780.373603540535,,,0.083,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.5184143152668231,55.887
+UGA,Uganda,Overshooting (>100%),10361.932006887757,,,0.115,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),1.195211471351836,123.847
+RWA,Rwanda,Overshooting (>100%),9997.081833002125,,,0.11,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.34278002893679743,34.268
+TCD,Chad,Overshooting (>100%),9811.650638919175,,,0.159,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.4986316961382284,48.924
+ETH,Ethiopia,Overshooting (>100%),9685.173215147901,,,0.118,1941.0,2023.0,82.0,Overshoot & fossil-locked (low renewables),3.1612134672113297,306.169
+CAF,Central African Republic,Overshooting (>100%),9573.010343382746,,,0.055,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.12656415866483495,12.116
+NER,Niger,Overshooting (>100%),8848.169565436294,,,0.099,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.6425961842108571,56.858
+COD,Democratic Republic of Congo,Overshooting (>100%),8577.359441489889,,,0.044,1920.0,2023.0,103.0,Overshoot & fossil-locked (low renewables),2.6842876478545605,230.241
+SOM,Somalia,Overshooting (>100%),7643.615825287593,,,0.03,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.4509645799565425,34.47
+BDI,Burundi,Overshooting (>100%),4583.817411192933,,,0.052,1950.0,2023.0,73.0,Overshoot & fossil-locked (low renewables),0.33626993872752287,15.414
