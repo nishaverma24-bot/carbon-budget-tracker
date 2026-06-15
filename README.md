@@ -7,133 +7,255 @@
 
 
 ---
+# Carbon Budget Tracker
 
-## Introduction  
+## From Fair Shares to Carbon Debt: Quantifying National Responsibility and Policy Gaps under the Paris Agreement
 
-The **Carbon Budget Tracker** is a Python + Streamlit dashboard that quantifies **countries’ fair-share CO₂ budgets**, **carbon overshoot (debt)**, and **policy gaps** under different decarbonization scenarios.  
+![Carbon Budget Tracker Dashboard](assets/dashboard_overview.png)
 
-Using data from **IPCC AR6**, **Our World in Data**, and **UNFCCC pledges**, the project visualizes how national trajectories align—or diverge—from the Paris Agreement’s 1.5 °C pathway.  
+### Climate Justice Analytics Platform
 
-It translates global climate equity into measurable numbers:  
-how much carbon a country *could* emit (its fair share),  
-how much it *has* emitted (historical responsibility),  
-and how much it *owes* back to the planet (its carbon debt).  
+The Carbon Budget Tracker is a Python-based climate analytics platform that quantifies national fair-share carbon budgets, carbon debt, overshoot timing, and policy gaps under Paris Agreement temperature targets.
 
----
+By combining historical emissions, population dynamics, equity-based allocation methods, and future policy scenarios, the framework evaluates whether countries are operating within their fair share of the remaining global carbon budget.
 
-## “Equity is the heart of climate justice — the atmosphere is finite, and so is our time.”  
+The project moves beyond conventional emissions accounting by introducing **carbon debt** as an operational measure of historical responsibility. Carbon debt represents the cumulative emissions a country has produced beyond its allocated share of the remaining global carbon budget.
 
-An interactive dashboard showing national overshoot timelines, carbon debt accumulation, and fair-share comparisons across regions.
+This framework provides a transparent and reproducible approach for evaluating climate equity, policy credibility, and future mitigation obligations.
 
----
-
-## Goals of the Analysis  
-
-- Allocate **fair-share carbon budgets** across countries and regions  
-- Compute **carbon overshoot and debt** based on historical emissions  
-- Quantify the **year of overshoot** for each country under multiple scenarios (Baseline, NDC, Ambitious)  
-- Translate overshoot into **drawdown obligations** (per-capita negative emissions needs)  
-- Visualize **AI-induced emission increase risks** and fairness implications  
+> "Equity is at the heart of climate justice: the atmosphere is finite, and so is the remaining carbon budget."
 
 ---
 
-## Research Question  
+## Why This Matters
 
-How can we measure whether each country is staying within its **fair share of the global carbon budget**, and what happens when it overshoots?  
+The Paris Agreement establishes a finite global carbon budget consistent with limiting warming to 1.5°C or 2°C. While emissions inventories reveal who emits carbon today, they do not answer a critical equity question:
 
-Does technological acceleration (AI, industrial growth) risk deepening carbon inequality — or can ambitious climate policies close the overshoot gap?  
+**How much of the remaining carbon budget should each country be entitled to use?**
 
----
+This project addresses that gap by translating global climate targets into country-level fair-share budgets and measuring the consequences of overshoot.
 
-## Dataset Overview  
+The framework enables researchers, policymakers, and sustainability practitioners to explore:
 
-| Dataset | Description | Source |
-|----------|--------------|---------|
-| **OWID CO₂ Data** | Historical CO₂ emissions, energy, and population | Our World in Data |
-| **IPCC AR6 Budgets** | Remaining global carbon budgets for 1.5 °C and 2 °C | IPCC WG I AR6 (2021) |
-| **UNFCCC NDCs** | Nationally Determined Contributions (pledges) | UNFCCC Database |
-| **World Bank GDP** | GDP per capita (used for ability-to-pay scaling) | World Bank Open Data |
-
----
-
-## Key Indicators  
-
-| Indicator | Meaning |
-|------------|----------|
-| `co2_ffi` | CO₂ emissions from fossil fuels + industry (MtCO₂/yr) |
-| `population` | National population |
-| `budget_fairshare` | Allocated fair-share budget (MtCO₂) |
-| `overshoot_year` | Year when fair-share budget is exhausted |
-| `carbon_debt` | Excess emissions beyond fair-share (MtCO₂) |
-| `drawdown_per_capita` | Negative emissions needed (tCO₂/person) |
-| `scenario` | Policy trajectory (Baseline / NDC / Ambitious / AI) |
+* Which countries have already exceeded their fair share?
+* How large is the resulting carbon debt?
+* When did overshoot occur?
+* What future mitigation or carbon removal obligations arise?
+* How do alternative policy pathways influence climate equity outcomes?
 
 ---
 
-## Methodology  
+## Research Question
 
-1. **Fair-Share Allocation** — Equal per-capita distribution of IPCC AR6 budgets  
-2. **Carbon Debt Computation** — Subtract historical CO₂ (1990–2022) from allocated share  
-3. **Alternative Allocation** — Weighting by **Ability-to-Pay (ATP)** using cumulative GDP  
-4. **Scenario Harmonization** — Align IPCC WG III pathways (CurPol vs CurPledge) with 2022 data  
-5. **Drawdown Obligation** — Translate carbon debt into required negative emissions (2025–2100)  
-6. **Visualization** — Choropleths, bubble plots, overshoot timelines, and AI impact panels  
+**To what extent have countries exceeded their fair-share share of the remaining global carbon budget, and what carbon debt and future drawdown obligations does this create under Paris-aligned pathways?**
 
 ---
 
-## ⚙️ Tools & Libraries  
+## Research Contribution
 
-- **Python:**  Pandas, NumPy, Matplotlib, Plotly, Streamlit, Pathlib  
-- **Jupyter Notebook:**  Workflow Steps (01 – 22)  
-- **Data Processing:**  Grouping, normalization, per-capita allocation, scenario joins  
-- **Visualization:**  Plotly subplots, choropleths, multi-panel charts  
+The project operationalizes the concept of **carbon debt** by integrating:
 
----
+* Fair-share budget allocation
+* Historical responsibility
+* Overshoot timing
+* Future drawdown obligations
+* Policy pathway assessment
 
-## 📂 Repository Structure  
+into a unified analytical framework.
 
-| Folder | Description |
-|---------|-------------|
-| `/data/` | Raw & processed datasets (OWID, IPCC, UNFCCC) |
-| `/notebooks/` | Step-wise analysis and scenario generation (01–22) |
-| `/visuals/` | Saved charts and multi-panel figures |
-| `/scripts/` | Helper functions for budget allocation and visuals |
-| `requirements.txt` | Python dependencies |
-| `streamlit_app.py` | Interactive dashboard entry point |
+By linking climate equity principles with transparent computational methods, the framework provides a reproducible approach for evaluating national responsibility under Paris Agreement targets.
 
 ---
 
-## Getting Started  
+## Key Findings
+
+Preliminary analyses indicate that:
+
+* Many industrialized economies have already exhausted their fair-share share of the Paris carbon budget.
+* Historical emissions generate substantial carbon debt disparities across countries and regions.
+* Current climate pledges reduce but often do not eliminate overshoot.
+* Delayed mitigation significantly increases future drawdown obligations.
+* Allocation methodology strongly influences responsibility distributions and policy outcomes.
+
+---
+
+## Key Features
+
+### Fair-Share Budget Allocation
+
+Allocate Paris-aligned carbon budgets using equal per-capita and Ability-to-Pay methodologies.
+
+### Carbon Debt Assessment
+
+Quantify cumulative overshoot relative to allocated carbon budgets.
+
+### Overshoot Year Analysis
+
+Identify when countries exhaust their fair-share allocation under different pathways.
+
+### Policy Gap Evaluation
+
+Compare current policy trajectories against Paris-compatible scenarios.
+
+### Drawdown Obligations
+
+Translate carbon debt into per-capita negative emissions requirements.
+
+### Interactive Visualizations
+
+Explore carbon debt, overshoot timing, regional disparities, and future scenarios through interactive dashboards.
+
+---
+
+## Data Sources
+
+| Dataset                 | Content                                             | Source                      |
+| ----------------------- | --------------------------------------------------- | --------------------------- |
+| OWID CO₂ Dataset        | Historical emissions, population, energy indicators | Our World in Data           |
+| IPCC AR6 Carbon Budgets | Remaining global carbon budgets                     | IPCC Working Group I (2021) |
+| UNFCCC NDC Registry     | National climate pledges                            | UNFCCC                      |
+| World Bank Open Data    | GDP and development indicators                      | World Bank                  |
+
+---
+
+## Methodology
+
+### 1. Fair-Share Allocation
+
+Remaining global carbon budgets from IPCC AR6 are allocated using:
+
+* Equal per-capita allocation
+* Ability-to-Pay weighted allocation
+
+### 2. Carbon Debt Calculation
+
+Historical fossil-fuel and industrial CO₂ emissions are compared against allocated fair-share budgets.
+
+Carbon Debt = Historical Emissions − Fair-Share Budget
+
+### 3. Overshoot Analysis
+
+Overshoot years are estimated for countries and regions under multiple decarbonization pathways.
+
+### 4. Scenario Harmonization
+
+Future pathways integrate:
+
+* Current Policies (CurPol)
+* Current Pledges (NDCs)
+* Ambitious Decarbonization Scenarios
+
+### 5. Drawdown Obligations
+
+Carbon debt is translated into per-capita negative-emissions requirements between 2025 and 2100.
+
+---
+
+## Technical Stack
+
+### Core Analytics
+
+* Python
+* Pandas
+* NumPy
+
+### Visualization
+
+* Plotly
+* Matplotlib
+
+### Dashboard
+
+* Streamlit
+
+### Workflow
+
+* Jupyter Notebooks
+* Reproducible Data Pipelines
+
+---
+
+## Repository Structure
+
+```text
+carbon-budget-tracker/
+
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│   ├── 01_data_collection.ipynb
+│   ├── 02_data_cleaning.ipynb
+│   ├── 03_fair_share_allocation.ipynb
+│   ├── 04_carbon_debt_calculation.ipynb
+│   ├── 05_scenario_analysis.ipynb
+│   └── 06_visualization.ipynb
+│
+├── visuals/
+│
+├── scripts/
+│
+├── streamlit_app.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Example Outputs
+
+* Global Carbon Debt Map
+* Overshoot Year Rankings
+* Regional Fair-Share Comparisons
+* Drawdown Obligation Analysis
+* Scenario Comparison Dashboards
+* Policy Gap Assessments
+
+---
+
+## Installation
 
 ```bash
-# Clone the repository
 git clone https://github.com/nishaverma24-bot/carbon-budget-tracker.git
+
 cd carbon-budget-tracker
 
-# Create and activate a virtual environment
 python -m venv .venv
-source .venv/bin/activate      # (Windows: .venv\Scripts\activate)
 
-# Install dependencies
+source .venv/bin/activate
+# Windows:
+# .venv\Scripts\activate
+
 pip install -r requirements.txt
 
-# Launch Jupyter or Streamlit
-jupyter lab
-# or
 streamlit run streamlit_app.py
-🌐 Data Sources and Citation
-Our World in Data – CO₂ Emissions Dataset
-IPCC AR6 – Working Group I (2021)
-UNFCCC – NDC Registry
-World Bank Open Data
-🧮 Main Notebook
-📓 carbon_budget_tracker_analysis.ipynb
-Runs the full workflow — data ingestion, fair-share computation, scenario modeling, and multi-panel visualization.
-Example Visualizations
-Global CO₂ emissions vs remaining budgets
-Fair-share and carbon debt per country
-Overshoot year by region and scenario
-AI impact on future emission trajectories
+```
 
-Project by Nisha Verma | Python + Streamlit Dashboard
-📍 Berlin | 2025
+---
+
+## Future Development
+
+Planned extensions include:
+
+* AI-driven electricity demand scenarios
+* Climate-policy credibility assessment
+* Enhanced regional equity metrics
+* Additional allocation methodologies
+* Expanded dashboard interactivity
+
+---
+
+## Author
+
+**Nisha Verma, PhD**
+
+Sustainability Analytics | Climate Policy | Data Science
+
+Berlin, Germany
+
+---
+
+## License
+
+This project is released under the MIT License.
