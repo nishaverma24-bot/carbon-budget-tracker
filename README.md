@@ -1,37 +1,28 @@
-# 🌍 Carbon Budget Tracker  
-**From Fair Shares to Carbon Debt: Why Countries Overshoot the Paris Agreement**
-
-<p align="center">
-  <img src="assets/CO2_Budget_Tracker.png" width="750">
-</p>
-
-
----
 # Carbon Budget Tracker
 
 ## From Fair Shares to Carbon Debt: Quantifying National Responsibility and Policy Gaps under the Paris Agreement
 
-![Carbon Budget Tracker Dashboard](assets/dashboard_overview.png)
+![Dashboard Preview](assets/dashboard_overview.png)
 
-### Climate Justice Analytics Platform
+**Climate Justice Analytics Platform**
 
-The Carbon Budget Tracker is a Python-based climate analytics platform that quantifies national fair-share carbon budgets, carbon debt, overshoot timing, and policy gaps under Paris Agreement temperature targets.
+The Carbon Budget Tracker is a Python-based interactive platform that quantifies national fair-share carbon budgets, carbon debt, overshoot timing, and policy gaps under Paris Agreement temperature targets.
 
-By combining historical emissions, population dynamics, equity-based allocation methods, and future policy scenarios, the framework evaluates whether countries are operating within their fair share of the remaining global carbon budget.
+By integrating historical emissions data, equity-based allocation methods, and future policy scenarios, the framework evaluates whether countries are operating within their fair share of the remaining global carbon budget and identifies where overshoot has already occurred.
 
-The project moves beyond conventional emissions accounting by introducing **carbon debt** as an operational measure of historical responsibility. Carbon debt represents the cumulative emissions a country has produced beyond its allocated share of the remaining global carbon budget.
+The project moves beyond conventional emissions accounting by introducing **carbon debt** as a measurable indicator of historical responsibility. Carbon debt represents the cumulative emissions a country has produced beyond its allocated share of the remaining global carbon budget.
 
-This framework provides a transparent and reproducible approach for evaluating climate equity, policy credibility, and future mitigation obligations.
-
-> "Equity is at the heart of climate justice: the atmosphere is finite, and so is the remaining carbon budget."
+> *"Equity is at the heart of climate justice: the atmosphere is finite, and so is the remaining carbon budget."*
 
 ---
 
 ## Why This Matters
 
-The Paris Agreement establishes a finite global carbon budget consistent with limiting warming to 1.5°C or 2°C. While emissions inventories reveal who emits carbon today, they do not answer a critical equity question:
+The Paris Agreement establishes a finite global carbon budget consistent with limiting warming to 1.5°C and well below 2°C.
 
-**How much of the remaining carbon budget should each country be entitled to use?**
+While emissions inventories reveal who emits carbon today, they do not answer a critical equity question:
+
+### How much of the remaining carbon budget should each country be entitled to use?
 
 This project addresses that gap by translating global climate targets into country-level fair-share budgets and measuring the consequences of overshoot.
 
@@ -40,7 +31,7 @@ The framework enables researchers, policymakers, and sustainability practitioner
 * Which countries have already exceeded their fair share?
 * How large is the resulting carbon debt?
 * When did overshoot occur?
-* What future mitigation or carbon removal obligations arise?
+* What future mitigation or carbon-removal obligations arise?
 * How do alternative policy pathways influence climate equity outcomes?
 
 ---
@@ -53,9 +44,9 @@ The framework enables researchers, policymakers, and sustainability practitioner
 
 ## Research Contribution
 
-The project operationalizes the concept of **carbon debt** by integrating:
+The Carbon Budget Tracker operationalizes the concept of **carbon debt** by integrating:
 
-* Fair-share budget allocation
+* Fair-share allocation
 * Historical responsibility
 * Overshoot timing
 * Future drawdown obligations
@@ -63,19 +54,21 @@ The project operationalizes the concept of **carbon debt** by integrating:
 
 into a unified analytical framework.
 
-By linking climate equity principles with transparent computational methods, the framework provides a reproducible approach for evaluating national responsibility under Paris Agreement targets.
+While emissions inventories report who emits carbon, they do not assess whether countries remain within their equitable share of the remaining global carbon budget. This project addresses that gap by providing a transparent and reproducible methodology for evaluating climate equity, historical responsibility, and policy credibility under Paris Agreement temperature targets.
+
+The framework can be used to compare alternative allocation approaches, assess overshoot dynamics, and quantify the scale of future mitigation and carbon-removal obligations required to restore alignment with global climate goals.
 
 ---
 
 ## Key Findings
 
-Preliminary analyses indicate that:
+Preliminary analysis suggests that:
 
-* Many industrialized economies have already exhausted their fair-share share of the Paris carbon budget.
-* Historical emissions generate substantial carbon debt disparities across countries and regions.
+* Many industrialized economies have already exhausted their fair-share share of the remaining Paris-aligned carbon budget.
+* Carbon debt varies substantially across countries and regions.
 * Current climate pledges reduce but often do not eliminate overshoot.
 * Delayed mitigation significantly increases future drawdown obligations.
-* Allocation methodology strongly influences responsibility distributions and policy outcomes.
+* Alternative allocation methodologies can materially alter responsibility distributions.
 
 ---
 
@@ -83,7 +76,10 @@ Preliminary analyses indicate that:
 
 ### Fair-Share Budget Allocation
 
-Allocate Paris-aligned carbon budgets using equal per-capita and Ability-to-Pay methodologies.
+Allocate Paris-aligned carbon budgets using:
+
+* Equal per-capita allocation
+* Ability-to-Pay (ATP) weighted allocation
 
 ### Carbon Debt Assessment
 
@@ -99,7 +95,7 @@ Compare current policy trajectories against Paris-compatible scenarios.
 
 ### Drawdown Obligations
 
-Translate carbon debt into per-capita negative emissions requirements.
+Translate carbon debt into per-capita negative-emissions requirements.
 
 ### Interactive Visualizations
 
@@ -129,15 +125,15 @@ Remaining global carbon budgets from IPCC AR6 are allocated using:
 
 ### 2. Carbon Debt Calculation
 
-Historical fossil-fuel and industrial CO₂ emissions are compared against allocated fair-share budgets.
+**Carbon Debt = Historical Emissions − Fair-Share Budget**
 
-Carbon Debt = Historical Emissions − Fair-Share Budget
+Historical fossil-fuel and industrial CO₂ emissions are compared against allocated fair-share budgets.
 
 ### 3. Overshoot Analysis
 
 Overshoot years are estimated for countries and regions under multiple decarbonization pathways.
 
-### 4. Scenario Harmonization
+### 4. Scenario Modeling
 
 Future pathways integrate:
 
@@ -192,25 +188,13 @@ carbon-budget-tracker/
 │   ├── 05_scenario_analysis.ipynb
 │   └── 06_visualization.ipynb
 │
-├── visuals/
-│
 ├── scripts/
-│
+├── visuals/
+├── assets/
 ├── streamlit_app.py
 ├── requirements.txt
 └── README.md
 ```
-
----
-
-## Example Outputs
-
-* Global Carbon Debt Map
-* Overshoot Year Rankings
-* Regional Fair-Share Comparisons
-* Drawdown Obligation Analysis
-* Scenario Comparison Dashboards
-* Policy Gap Assessments
 
 ---
 
@@ -234,15 +218,24 @@ streamlit run streamlit_app.py
 
 ---
 
+## Example Outputs
+
+* Global Carbon Debt Choropleth Map
+* Overshoot Year Rankings
+* Fair-Share vs Historical Emissions Comparisons
+* Regional Carbon Debt Analysis
+* Drawdown Obligation Assessment
+* Policy Gap Evaluation
+
+---
+
 ## Future Development
 
-Planned extensions include:
-
-* AI-driven electricity demand scenarios
-* Climate-policy credibility assessment
-* Enhanced regional equity metrics
-* Additional allocation methodologies
-* Expanded dashboard interactivity
+* Expanded equity allocation methodologies
+* Additional regional and sectoral analyses
+* Enhanced dashboard interactivity
+* Policy credibility assessment modules
+* Integration of future technology-demand scenarios
 
 ---
 
@@ -250,7 +243,7 @@ Planned extensions include:
 
 **Nisha Verma, PhD**
 
-Sustainability Analytics | Climate Policy | Data Science
+*Sustainability Analytics | Climate Policy | Data Science*
 
 Berlin, Germany
 
@@ -258,4 +251,4 @@ Berlin, Germany
 
 ## License
 
-This project is released under the MIT License.
+MIT License
