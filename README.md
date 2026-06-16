@@ -2,7 +2,7 @@
 
 ## From Fair Shares to Carbon Debt: Quantifying National Responsibility and Policy Gaps under the Paris Agreement
 
-![Dashboard Preview](assets/CO2_Budget_Tracker.png)
+![Dashboard Preview](assets/dashboard-preview.png)
 
 ### Climate Equity Analytics Framework
 
