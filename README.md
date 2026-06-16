@@ -23,10 +23,15 @@ Open `http://localhost:8501`.
 
 ## Pages
 
-- **Analytics Dashboard** – global map, leaderboard, climate warning
-- **Country Explorer** – searchable country table
-- **Country Deep Dive** – per-country charts and scenarios
-- **Global Benchmarks** – IPCC AR6 remaining budgets
+Narrative flow: **responsibility → overshoot → policy gap → future risk**
+
+1. **Executive Dashboard** – global carbon debt state, top debtors, climate warning
+2. **Country Explorer** – deep country profiles (Germany-style metrics, debt curve, overshoot timeline)
+3. **Carbon Debt Rankings** – top debtors, creditors, regional totals, Carbon Justice Score
+4. **Policy Gap Analysis** – overshoot year vs net-zero pledge gap
+5. **AI Scenario Explorer** – AI growth impact on overshoot timing and debt
+6. **Overshoot Drivers** – structural drivers behind overshoot
+7. **Global Benchmarks** – IPCC AR6 remaining budgets
 
 ## Data
 
