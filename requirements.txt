@@ -1,5 +1,6 @@
-streamlit==1.37.0
-pandas>=2.1
-plotly>=5.22
-numpy>=1.26
-watchdog
+pandas
+numpy
+matplotlib
+plotly
+streamlit
+pathlib
