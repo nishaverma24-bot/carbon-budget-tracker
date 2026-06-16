@@ -16,6 +16,14 @@ The project moves beyond conventional emissions accounting by introducing **carb
 
 ---
 
+# Live Demo
+
+**[Open the Carbon Budget Tracker →](https://carbon-budget-tracker-ko3xfkqxqq8suy57iccvqr.streamlit.app)**
+
+Hosted on Streamlit Community Cloud. No installation required.
+
+---
+
 # Research Question
 
 **To what extent have countries exceeded their fair-share allocation of the remaining global carbon budget, and what carbon debt and future drawdown obligations does this create under Paris-aligned pathways?**
@@ -200,8 +208,12 @@ http://localhost:8501
 
 # Deploy on Streamlit Community Cloud
 
+**Live app:** [https://carbon-budget-tracker-ko3xfkqxqq8suy57iccvqr.streamlit.app](https://carbon-budget-tracker-ko3xfkqxqq8suy57iccvqr.streamlit.app)
+
+To redeploy or fork:
+
 1. Push the repository to GitHub.
-2. Sign in to Streamlit Community Cloud.
+2. Sign in to [Streamlit Community Cloud](https://share.streamlit.io).
 3. Create a new application.
 4. Select repository and branch.
 5. Set:
