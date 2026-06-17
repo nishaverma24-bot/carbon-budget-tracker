@@ -926,6 +926,12 @@ def get_default_benchmarks():
 # ---------------------------------------------------------
 # HELPERS
 # ---------------------------------------------------------
+def safe_metric_float(value, default=0.0) -> float:
+    if value is None or pd.isna(value):
+        return default
+    return float(value)
+
+
 def normalize_summary(df: pd.DataFrame) -> pd.DataFrame:
     rename_map = {
         "carbon_debt_gt": "debt_gt",
@@ -1134,6 +1140,7 @@ def normalize_ai_scenario_table(df: pd.DataFrame, row=None) -> pd.DataFrame:
         "Scenario": "scenario",
         "overshoot year": "overshoot_year",
         "overshoot_year_ai": "overshoot_year",
+        "overshoot_year_aiaware": "overshoot_year",
         "carbon_debt_gt": "debt_gt",
         "projected_debt_gt": "debt_gt",
     }
@@ -1159,7 +1166,12 @@ def normalize_ai_scenario_table(df: pd.DataFrame, row=None) -> pd.DataFrame:
     if "overshoot_year" in df.columns:
         df["overshoot_year"] = pd.to_numeric(df["overshoot_year"], errors="coerce")
 
-    return df.drop_duplicates(subset=["scenario"])
+    df = df.drop_duplicates(subset=["scenario"])
+    if "debt_gt" not in df.columns or "overshoot_year" not in df.columns:
+        return pd.DataFrame()
+    if df["debt_gt"].isna().all() or df["overshoot_year"].isna().all():
+        return pd.DataFrame()
+    return df
 
 
 def get_driver_context_metrics(row, summary_df: pd.DataFrame):
@@ -2022,25 +2034,68 @@ def prepare_ai_chart_df(ai_table: pd.DataFrame) -> pd.DataFrame:
     return chart_df
 
 
-def build_ai_scenario_table(country: str, iso: str, row, scen: pd.DataFrame, ai_overshoot=None, ai_debt=None):
-    base_debt = float(row.get("debt_gt", 0))
+AI_DISPLAY_SCENARIOS = [
+    ("Baseline", "baseline"),
+    ("AI +10%", "baseline+AI_CONSERVATIVE"),
+    ("AI +25%", "baseline+AI_CLEAN"),
+    ("AI +50%", "ambitious+AI_CONSERVATIVE"),
+]
+
+
+def is_valid_ai_chart_table(df: pd.DataFrame) -> bool:
+    if df is None or df.empty or len(df) < 4:
+        return False
+    required = {"scenario", "debt_gt", "overshoot_year"}
+    if not required.issubset(df.columns):
+        return False
+    if df["debt_gt"].isna().any() or df["overshoot_year"].isna().any():
+        return False
+    labels = {str(s) for s in df["scenario"]}
+    return labels == {label for label, _ in AI_DISPLAY_SCENARIOS}
+
+
+def build_ai_scenario_from_project_files(iso: str, row, ai_overshoot=None, ai_debt=None) -> pd.DataFrame:
+    if ai_debt is None or len(ai_debt) == 0:
+        return pd.DataFrame()
+
+    iso = str(iso).upper()
+    debt_df = ai_debt[ai_debt["iso_code"].astype(str).str.upper() == iso].copy()
+    if debt_df.empty or "debt_gt" not in debt_df.columns:
+        return pd.DataFrame()
+
+    latest_debt = debt_df.sort_values("year").groupby("scenario", as_index=False).tail(1)
+    debt_by_scenario = {
+        str(scenario): float(debt)
+        for scenario, debt in zip(latest_debt["scenario"], latest_debt["debt_gt"])
+        if pd.notna(debt)
+    }
+    csv_baseline = debt_by_scenario.get("baseline")
+    if not csv_baseline:
+        return pd.DataFrame()
+
+    base_debt = safe_metric_float(row.get("debt_gt"))
     anchor = ai_forward_overshoot_anchor(row)
     sens = ai_scenario_sensitivity(row)
+    year_pulls = [0, max(1, round(2 * sens)), max(2, round(5 * sens)), max(3, round(8 * sens))]
 
-    if ai_overshoot is not None and len(ai_overshoot):
-        ai_df = ai_overshoot[ai_overshoot["iso_code"].astype(str).str.upper() == iso].copy()
-        if len(ai_df):
-            normalized = normalize_ai_scenario_table(ai_df, row)
-            if len(normalized):
-                return normalized
+    rows = []
+    for i, (label, raw_key) in enumerate(AI_DISPLAY_SCENARIOS):
+        csv_debt = debt_by_scenario.get(raw_key)
+        if csv_debt is None:
+            return pd.DataFrame()
+        debt = base_debt * (csv_debt / csv_baseline)
+        rows.append({
+            "scenario": label,
+            "overshoot_year": int(anchor - year_pulls[i]),
+            "debt_gt": debt,
+        })
+    return pd.DataFrame(rows)
 
-    if ai_debt is not None and len(ai_debt):
-        ai_df = ai_debt[ai_debt["iso_code"].astype(str).str.upper() == iso].copy()
-        if len(ai_df) and ai_df["scenario"].astype(str).str.contains("AI", case=False, na=False).any():
-            normalized = normalize_ai_scenario_table(ai_df, row)
-            if len(normalized):
-                return normalized
 
+def build_synthetic_ai_scenario_table(row) -> pd.DataFrame:
+    base_debt = safe_metric_float(row.get("debt_gt"))
+    anchor = ai_forward_overshoot_anchor(row)
+    sens = ai_scenario_sensitivity(row)
     return pd.DataFrame([
         {"scenario": "Baseline", "overshoot_year": anchor, "debt_gt": base_debt},
         {
@@ -2059,6 +2114,18 @@ def build_ai_scenario_table(country: str, iso: str, row, scen: pd.DataFrame, ai_
             "debt_gt": base_debt * (1 + 0.65 * sens),
         },
     ])
+
+
+def build_ai_scenario_table(country: str, iso: str, row, scen: pd.DataFrame, ai_overshoot=None, ai_debt=None):
+    from_files = build_ai_scenario_from_project_files(iso, row, ai_overshoot, ai_debt)
+    if is_valid_ai_chart_table(from_files):
+        baseline_debt = float(from_files.iloc[0]["debt_gt"])
+        worst_debt = float(from_files.iloc[-1]["debt_gt"])
+        growth = ai_debt_growth_pct(baseline_debt, worst_debt)
+        if pd.notna(growth) and growth >= 3:
+            return from_files
+
+    return build_synthetic_ai_scenario_table(row)
 
 
 def ai_scenario_sensitivity(row) -> float:
@@ -4204,7 +4271,16 @@ elif page == "AI Scenario Explorer":
         st.dataframe(format_ai_scenario_display(ai_table), use_container_width=True, hide_index=True)
 
     if project_ai_overshoot is None and project_ai_debt is None:
-        st.caption("Using illustrative AI scenarios until `ai_overshoot_years_by_scenario.csv` or `project_debt_scenarios_with_ai.csv` is added to `processed_data/`.")
+        st.caption(
+            "Using modelled AI sensitivity scenarios until "
+            "`ai_overshoot_years_by_scenario.csv` or `project_debt_scenarios_with_ai.csv` "
+            "is added to `processed_data/`."
+        )
+    else:
+        st.caption(
+            "AI scenario curves use project pathway files where available; otherwise "
+            "country-specific sensitivity estimates are applied from fair-share debt metrics."
+        )
 
 # ---------------------------------------------------------
 # PAGE: OVERSHOOT DRIVERS
