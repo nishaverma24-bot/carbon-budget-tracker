@@ -6,13 +6,29 @@
 
 ![Dashboard Preview](assets/dashboard-preview.png)
 
+📄 **Research Paper**
+
+[Download the full paper (PDF)](./Carbon_Budget_Tracker_Paper.pdf)
+
+🌍 **Interactive Dashboard**
+
+[Open the Carbon Budget Tracker Dashboard](https://carbon-budget-tracker-ko3xfkqxqq8suy57iccvqr.streamlit.app)
+
+---
+
+## Key Insight
+
+**51 countries have already exceeded their fair-share allocation of the remaining global carbon budget, revealing a significant gap between climate responsibility and current policy commitments.**
+
 ---
 
 ## Overview
 
 The Carbon Budget Tracker is an interactive climate-equity analytics platform that quantifies national fair-share carbon budgets, carbon debt, overshoot timing, and policy gaps under Paris Agreement temperature targets.
 
-The framework translates global carbon budgets into country-level allocations and evaluates whether countries remain within their equitable share of the remaining atmospheric commons. By integrating historical responsibility, equity allocation methods, and future policy pathways, the platform provides a transparent approach for assessing climate responsibility and carbon budget overshoot.
+Rather than focusing solely on annual emissions, the framework evaluates whether countries remain within their equitable share of the remaining global carbon budget and quantifies the consequences when that share is exceeded.
+
+By integrating historical responsibility, equity allocation methods, and future policy pathways, the project provides a transparent framework for assessing climate responsibility and carbon budget overshoot.
 
 ---
 
@@ -28,38 +44,11 @@ The Carbon Budget Tracker addresses this question by translating global climate 
 
 ---
 
-## Key Findings
-
-* 51 countries have already exhausted their fair-share carbon budget.
-* The United States has accumulated the largest carbon debt (136 Gt CO₂).
-* India remains the largest net carbon creditor (151 Gt CO₂).
-* Current climate pledges often reduce but do not eliminate overshoot.
-* Historical emissions remain the dominant determinant of present-day carbon debt.
-* At current emission rates, the remaining 1.5°C carbon budget may be exhausted within a decade.
-
----
-
-## Research Outputs
-
-### Interactive Dashboard
-
-Explore the live application:
-
-https://carbon-budget-tracker-ko3xfkqxqq8suy57iccvqr.streamlit.app
-
-### Research Paper
-
-**From Fair Shares to Carbon Debt: Quantifying National Responsibility and Policy Gaps under the Paris Agreement**
-
-The accompanying paper details the conceptual framework, methodology, carbon debt calculations, overshoot analysis, and policy implications underlying the dashboard.
-
----
-
 ## Why This Matters
 
 Most climate dashboards focus on annual emissions, carbon intensity, or net-zero commitments.
 
-The Carbon Budget Tracker focuses on a different dimension of climate accountability:
+The Carbon Budget Tracker focuses on a different dimension of climate responsibility:
 
 * Fair-share carbon budgets
 * Historical responsibility
@@ -74,7 +63,7 @@ By integrating these dimensions into a single framework, the project provides an
 
 ## Novel Contribution
 
-The project introduces carbon debt as a measurable indicator of climate responsibility.
+The project introduces **carbon debt** as a measurable indicator of climate responsibility.
 
 Carbon debt represents the cumulative emissions a country has produced beyond its allocated share of the remaining global carbon budget.
 
@@ -86,6 +75,30 @@ Rather than asking only who emits carbon today, the framework asks:
 * What future mitigation obligations arise from that overshoot?
 
 This approach links climate science, equity principles, and policy evaluation within a single analytical framework.
+
+---
+
+## Key Findings
+
+* 51 countries have already exhausted their fair-share carbon budget.
+* The United States has accumulated the largest carbon debt (136 Gt CO₂).
+* India remains the largest net carbon creditor (151 Gt CO₂).
+* Current climate pledges often reduce but do not eliminate overshoot.
+* Historical emissions remain the dominant determinant of present-day carbon debt.
+* At current emission rates, the remaining 1.5°C carbon budget may be exhausted within a decade.
+
+---
+
+## Results Snapshot
+
+| Indicator                           | Finding       |
+| ----------------------------------- | ------------- |
+| Largest Carbon Debtor               | United States |
+| Largest Carbon Creditor             | India         |
+| Countries in Overshoot              | 51            |
+| Countries Within Budget             | 27            |
+| Remaining 1.5°C Budget              | 362 Gt CO₂    |
+| Time Remaining at Current Emissions | ~9 Years      |
 
 ---
 
@@ -161,19 +174,6 @@ Future pathways incorporate:
 ### 6. Drawdown Obligations
 
 Carbon debt is translated into future negative-emissions requirements between 2025 and 2100.
-
----
-
-## Results Snapshot
-
-| Indicator                           | Finding       |
-| ----------------------------------- | ------------- |
-| Largest Carbon Debtor               | United States |
-| Largest Carbon Creditor             | India         |
-| Countries in Overshoot              | 51            |
-| Countries Within Budget             | 27            |
-| Remaining 1.5°C Budget              | 362 Gt CO₂    |
-| Time Remaining at Current Emissions | ~9 Years      |
 
 ---
 
